@@ -1,0 +1,29 @@
+{
+  "name": "angular-elevio",
+  "version": "0.0.0",
+  "authors": [
+    "Jonathan Bender <jlbender@gmail.com>"
+  ],
+  "description": "Angular wrappers to properly bootstrap the elev.io sidebar",
+  "main": "./dist/elevio.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jbender/angular-elevio.git"
+  },
+  "keywords": [
+    "angular",
+    "elev",
+    "elev.io",
+    "elev-io",
+    "elevio"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jbender/angular-elevio",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-coffee": "^2.2.0",
+    "gulp-coffeelint": "^0.4.0",
+    "gulp-concat": "^2.4.1",
+    "gulp-watch": "^1.0.2"
+  }
+}

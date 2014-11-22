@@ -1,0 +1,25 @@
+{
+  "name": "angular-elevio",
+  "version": "0.0.0",
+  "authors": [
+    "Jonathan Bender <jlbender@gmail.com>"
+  ],
+  "description": "Angular wrappers to properly bootstrap the elev.io sidebar",
+  "main": "./dist/elevio.js",
+  "keywords": [
+    "angular",
+    "elev",
+    "elev.io",
+    "elev-io",
+    "elevio"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jbender/angular-elevio",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

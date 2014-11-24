@@ -10,7 +10,7 @@ gulp.task('compile-coffee', function () {
     ])
     .pipe(coffeelint('.coffeelint'))
     .pipe(coffeelint.reporter())
-    .pipe(coffee())
+    .pipe(coffee({ bare : true }))
     .pipe(gulp.dest('dist'));
 });
 
@@ -19,3 +19,5 @@ gulp.task('watch', function () {
     gulp.start('compile-coffee');
   });
 });
+
+gulp.task('default', ['compile-coffee', 'watch']);

@@ -78,6 +78,9 @@
         setUser: (user) ->
           user ?= _user
           $window._elev.user = user
+
+        override: (setting, value) ->
+          $window._elev[setting] = value
     ]
     return
 

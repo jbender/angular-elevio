@@ -87,6 +87,9 @@
               user = _user;
             }
             return $window._elev.user = user;
+          },
+          override: function(setting, value) {
+            return $window._elev[setting] = value;
           }
         };
       }
